@@ -4,9 +4,9 @@ const Cards = () => {
   // var size = 3;
   const number = ["1", "2", "3"];
   return (
-    <div className="flex space-x-2">
+    <div  className="flex space-x-2">
       {number.map((card) => (
-        <div className=" bg-white  w-1/2 rounded-lg p-4">
+        <div key={card} className=" bg-white  w-1/2 rounded-lg p-4">
           <div className="flex justify-center">
             <img className=" w-40 my-8" src="image.jpg" alt="..." />
           </div>
