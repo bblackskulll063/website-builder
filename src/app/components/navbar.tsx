@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="bg-gray1 border-gray-200">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-72 px-28 py-4">
+        <div className="flex flex-wrap items-center justify-between mx-72 px-28 py-4">
           <div className="flex ml-24">
             <div className="relative ">
               <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
