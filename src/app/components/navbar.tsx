@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
           </div>
           <div
-            className="items-center justify-between w-full md:flex md:w-auto "
+            className="items-center justify-between flex w-auto "
             id="navbar-search"
           >
             {/* <div className="relative mt-3 md:hidden">
